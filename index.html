@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مدونة إلياس الخاصة</title>
+    <title>ilyes_tech31</title>
     <style>
         * {
             margin: 0;
@@ -182,8 +182,8 @@
         <div class="container">
             <div class="profile">
                 <div class="avatar">إ</div>
-                <h1>مدونة إلياس الخاصة</h1>
-                <p class="subtitle">مدونتي الشخصية حيث أشارك أفكاري وتجاربي</p>
+                <h1>My Project</h1>
+                <p class="subtitle">My Story</p>
             </div>
         </div>
     </header>
@@ -204,8 +204,8 @@
             <div class="post">
                 <div class="post-img">مقالة 1</div>
                 <div class="post-content">
-                    <h3>بداية رحلة البرمجة</h3>
-                    <p>كيف بدأت رحلتي في تعلم البرمجة والتحديات التي واجهتها...</p>
+                    <h3>الموضوع الأول</h3>
+                    <p>مقالة الموضوع الأول</p>
                     <a href="#" class="read-more">قراءة المزيد</a>
                 </div>
             </div>
@@ -213,8 +213,8 @@
             <div class="post">
                 <div class="post-img">مقالة 2</div>
                 <div class="post-content">
-                    <h3>تجربتي مع GitHub</h3>
-                    <p>كيف استفدت من GitHub لإدارة مشاريعي البرمجية...</p>
+                    <h3>الموضوع الثاني GitHub</h3>
+                    <p>مقالة الموضوع الثاني</p>
                     <a href="#" class="read-more">قراءة المزيد</a>
                 </div>
             </div>
@@ -222,8 +222,8 @@
             <div class="post">
                 <div class="post-img">مقالة 3</div>
                 <div class="post-content">
-                    <h3>نصائح للمبرمجين المبتدئين</h3>
-                    <p>مجموعة من النصائح التي أتمنى أن أعرفها عندما بدأت البرمجة...</p>
+                    <h3>الموضوع الثاني</h3>
+                    <p>مقالة الموضوع الثاني</p>
                     <a href="#" class="read-more">قراءة المزيد</a>
                 </div>
             </div>
@@ -239,7 +239,253 @@
     
     <footer>
         <div class="container">
-            <p>جميع الحقوق محفوظة © 2023 | مدونة إلياس الخاصة</p>
+            <p>جميع الحقوق محفوظة © 18/09/2025 | ilyes_tech31</p>
+            <p>تم الإنشاء باستخدام GitHub و Acode</p>
+        </div>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ilyes_tech31</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f8ff;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 3rem;
+            color: #6a11cb;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav li {
+            padding: 1rem 2rem;
+        }
+        
+        nav a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #6a11cb;
+        }
+        
+        .main-content {
+            padding: 3rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #2575fc;
+            font-size: 2rem;
+        }
+        
+        .blog-posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .post {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .post:hover {
+            transform: translateY(-5px);
+        }
+        
+        .post-img {
+            height: 200px;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        .post-content {
+            padding: 1.5rem;
+        }
+        
+        .post h3 {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        
+        .post p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .read-more {
+            display: inline-block;
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .about {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .blog-posts {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <div class="avatar">إ</div>
+                <h1>My Project</h1>
+                <p class="subtitle">My Story</p>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">مقالات</a></li>
+            <li><a href="#">من أنا</a></li>
+            <li><a href="#">اتصل بي</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container main-content">
+        <h2 class="section-title">أحدث المقالات</h2>
+        
+        <div class="blog-posts">
+            <div class="post">
+                <div class="post-img">مقالة 1</div>
+                <div class="post-content">
+                    <h3>الموضوع الأول</h3>
+                    <p>مقالة الموضوع الأول</p>
+                    <a href="#" class="read-more">قراءة المزيد</a>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-img">مقالة 2</div>
+                <div class="post-content">
+                    <h3>الموضوع الثاني GitHub</h3>
+                    <p>مقالة الموضوع الثاني</p>
+                    <a href="#" class="read-more">قراءة المزيد</a>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-img">مقالة 3</div>
+                <div class="post-content">
+                    <h3>الموضوع الثاني</h3>
+                    <p>مقالة الموضوع الثاني</p>
+                    <a href="#" class="read-more">قراءة المزيد</a>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="section-title">من أنا</h2>
+        
+        <div class="about">
+            <p>مرحباً، أنا إلياس. مهتم بتطوير الويب والبرمجة. بدأت رحلتي في تعلم البرمجة منذ فترة وأحب مشاركة ما أتعلمه مع الآخرين.</p>
+            <p>هذه مدونتي الشخصية حيث سأشارك تجاربي، مشاريعي، والدروس التي aprendo خلال رحلتي في عالم البرمجة.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة © 18/09/2025 | ilyes_tech31</p>
             <p>تم الإنشاء باستخدام GitHub و Acode</p>
         </div>
     </footer>
